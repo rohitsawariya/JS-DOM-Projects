@@ -1,0 +1,67 @@
+h1,
+.boxes {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 55px;
+    flex-wrap: wrap;
+}
+
+.box {
+    margin: 5px;
+    height: 150px;
+    width: 150px;
+    border: 1px solid black;
+}
+
+#Grey {
+    background-color: grey;
+}
+
+#Purple {
+    background-color: purple;
+}
+
+#Yellow {
+    background-color: yellow;
+}
+
+#Blue {
+    background-color: blue;
+}
+#Red{
+    background-color: red;
+}
+#Green{
+    background-color: green;
+}
+#Pink{
+    background-color: pink;
+}
+
+.h3 {
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    flex-wrap: wrap;
+}
+
+h3 {
+    width: 425px;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: #3498db;
+    /* Set the initial rotation */
+    transform: rotate(360deg);
+    /* Set transition for smooth animation */
+    transition: transform 1s ease-in-out;
+}
+.rotated {
+    transform: rotate(360deg);
+}
+
