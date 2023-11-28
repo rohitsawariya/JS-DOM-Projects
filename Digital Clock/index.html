@@ -6,38 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Your Local Time</title>
-    <style>
-        body {
-            background-color: #212121;
-            color: #fff;
-        }
-
-        #banner {
-            font-size: 50px;
-        }
-
-        .center {
-            display: flex;
-            height: 100vh;
-            justify-content: center;
-            align-items: center;
-            flex-direction: column;
-        }
-
-        #clock {
-            font-size: 30px;
-            background-color: orange;
-            padding: 20px 50px;
-            /* color: black; */
-            width: 150px;
-            height: 25px;
-            margin-top: 10px;
-            border-radius: 10px;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
@@ -45,14 +14,7 @@
         <div id="banner"><span>Your local time</span></div>
         <div id="clock"></div>
     </div>
-    <script>
-        const clock = document.getElementById('clock')
-        setInterval(() => {
-            let date = new Date();
-            clock.innerHTML = date.toLocaleTimeString();
-        }, 1000);
-
-    </script>
+    <script src="script.js"></script>
 </body>
 
 </html>
