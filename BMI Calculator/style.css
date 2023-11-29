@@ -2,11 +2,6 @@
             background-color: #676161;
         }
 
-        /* .center{
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        } */
         h1 {
             font-size: 55px;
         }
@@ -32,7 +27,7 @@
 
         #results {
             margin-top: 5px;
-            background-color: 	#ffff00;
+            background-color: #ffff00;
             border-radius: 10px;
             color: #1e0726;
         }

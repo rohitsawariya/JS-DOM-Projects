@@ -29,13 +29,16 @@ h1,
 #Blue {
     background-color: blue;
 }
-#Red{
+
+#Red {
     background-color: red;
 }
-#Green{
+
+#Green {
     background-color: green;
 }
-#Pink{
+
+#Pink {
     background-color: pink;
 }
 
@@ -51,17 +54,3 @@ h1,
 h3 {
     width: 425px;
 }
-
-.box {
-    width: 100px;
-    height: 100px;
-    background-color: #3498db;
-    /* Set the initial rotation */
-    transform: rotate(360deg);
-    /* Set transition for smooth animation */
-    transition: transform 1s ease-in-out;
-}
-.rotated {
-    transform: rotate(360deg);
-}
-
